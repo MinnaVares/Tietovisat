@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-public class Kysymys {
+public class Kysymys3 {
     String kysymys;
     List<String> vaihtoehdot = new ArrayList<>();
     String vastaus;

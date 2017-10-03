@@ -8,8 +8,6 @@ public class Kysymys {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-
-
         String kysymys = "Kuinka monta jalkaa kissalla on?";
         List<String> vastaukset = Arrays.asList("[0] neljä", "[1] viisi", "[2] kaksi");
         int oikeanVaihtoehdonIndeksi = 0;
