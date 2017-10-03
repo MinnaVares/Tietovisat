@@ -3,6 +3,7 @@
  */
 public class Paaohjelma {
     public static void main(String[] args) {
-        
+        Peli1 peli1 = new Peli1();
+        peli1.pelaa();
     }
 }
