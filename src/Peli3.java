@@ -4,7 +4,7 @@ import java.util.List;
 
 
 public class Peli3 {
-
+//tämä on kommentti
     public static void pelaa() {
         List<Kysymys> lista = new ArrayList<>();
         Kysymys k1 = new Kysymys("Kuka on Academic Workin toimitusjohtaja?", "Tommi Teräsvirta", "Stefan Heinrichs", "Jukka Pulkkinen", 1);

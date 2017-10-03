@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 import java.util.*;
-
+//wooot
 //Minna, Kalle ja Katja Ryhmä "Kissalla on neljä jalkaa"
 public class Peli1 {
 

@@ -2,7 +2,7 @@
  * Created by Administrator on 3.10.2017.
  */
 import java.util.List;
-
+//ja tämä
 public class Kysymykset {
     String kysymysteksti;
     List<String> vastausvaihtoehdot;

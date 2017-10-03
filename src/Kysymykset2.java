@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Kysymykset2 {
-
+//tämä myös
 
     String kysymysteksti;
     List<String> vastausvaihtoehdot = new ArrayList<>();
