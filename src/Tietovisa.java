@@ -8,11 +8,11 @@ public class Tietovisa {
 
     public static void main(String[] args) {
 
-        Kysymys k1 = new Kysymys();
+        Kysymys k1 = new Kysymys3();
         k1.luoVastausvaihtoehdot("Kyllä", "Ei", "Ehkä");
         k1.luoKysymys("Onko hauki kala?", k1.vastausvaihtoehdot, 0);
 
-        Kysymys k2 = new Kysymys();
+        Kysymys3 k2 = new Kysymys3();
         k2.luoVastausvaihtoehdot("Ei", "Ehkä", "Kyllä");
         k2.luoKysymys("Onko ahven kala?", k2.vastausvaihtoehdot, 2);
 
