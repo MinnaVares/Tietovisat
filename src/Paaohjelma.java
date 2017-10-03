@@ -7,7 +7,7 @@ public class Paaohjelma {
     public static void main(String[] args) {
         Peli1 peli1 = new Peli1();
         String pelivalinta = "";
-        while(true) {
+        while(true){
             System.out.println("Mitä peliä haluat pelata? \nValitse: \n1) Peli 1\n2) Peli 2\n3) Peli 3");
             Scanner lukija = new Scanner(System.in);
              pelivalinta = lukija.next();
@@ -20,10 +20,10 @@ public class Paaohjelma {
             if ("3".equals(pelivalinta)){
                 //peli3.pelaa
             }
-            if(pelivalinta=="En halua"){
-                System.out.println("Haluatko lopettaa?");
+            else{
+                System.out.println("Haluatko lopettaa?(Y/N)");
                 pelivalinta = lukija.next();
-                if (pelivalinta=="kyllä"){
+                if ("Y".equals(pelivalinta)){
                     break;
                 }else {continue;}
             }
