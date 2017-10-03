@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
@@ -6,69 +5,70 @@ import java.util.Scanner;
 
 public class Tietovisa {
 
-    public static void main(String[] args) {
 
-        Kysymys k1 = new Kysymys3();
+    public static void pelaaTosissaan() {
+
+        Kysymykset2 k1 = new Kysymykset2();
         k1.luoVastausvaihtoehdot("Kyllä", "Ei", "Ehkä");
         k1.luoKysymys("Onko hauki kala?", k1.vastausvaihtoehdot, 0);
 
-        Kysymys3 k2 = new Kysymys3();
+        Kysymykset2 k2 = new Kysymykset2();
         k2.luoVastausvaihtoehdot("Ei", "Ehkä", "Kyllä");
         k2.luoKysymys("Onko ahven kala?", k2.vastausvaihtoehdot, 2);
 
-        Kysymys k3 = new Kysymys();
+        Kysymykset2 k3 = new Kysymykset2();
         k3.luoVastausvaihtoehdot("Yhdellä i:llä", "Kahdella i:llä", "Kolmella i:llä");
         k3.luoKysymys("Monella i-kirjaimellä S(x määrä i:tä)ri:n nimi kirjoitetaan?", k3.vastausvaihtoehdot, 1);
 
-        Kysymys k4 = new Kysymys();
+        Kysymykset2 k4 = new Kysymykset2();
         k4.luoVastausvaihtoehdot("10011 oppilasta", "10100 oppilasta", "21 oppilasta");
         k4.luoKysymys("Montako oppilasta Academyssa on?", k4.vastausvaihtoehdot, 1);
 
-        Kysymys k5 = new Kysymys();
+        Kysymykset2 k5 = new Kysymykset2();
         k5.luoVastausvaihtoehdot("Joooo!", "Tietenkin!", "Ehdottomasti :)");
         k5.luoKysymys("Onko tämä kivaa?", k5.vastausvaihtoehdot, 0);
 
-        Kysymys k6 = new Kysymys();
+        Kysymykset2 k6 = new Kysymykset2();
         k6.luoVastausvaihtoehdot("Ctrl + V", "Ctrl + C", "Ctrl + X");
         k6.luoKysymys("Mikä pikakomento käytetään tiedostojen kopioimiseen?", k6.vastausvaihtoehdot, 1);
 
-        Kysymys k7 = new Kysymys();
+        Kysymykset2 k7 = new Kysymykset2();
         k7.luoVastausvaihtoehdot("Ctrl + V", "Ctrl + C", "Ctrl + X");
         k7.luoKysymys("Mikä pikakomento käytetään tiedostojen liittämiseen?", k7.vastausvaihtoehdot, 0);
 
-        Kysymys k8 = new Kysymys();
+        Kysymykset2 k8 = new Kysymykset2();
         k8.luoVastausvaihtoehdot("Ctrl + V", "Ctrl + C", "Ctrl + X");
         k8.luoKysymys("Mikä pikakomento käytetään tiedostojen leikkaamiseen?", k8.vastausvaihtoehdot, 2);
 
-        Kysymys k9 = new Kysymys();
+        Kysymykset2 k9 = new Kysymykset2();
         k9.luoVastausvaihtoehdot("Pelkosenniemi", "Inari", "Utsjoki");
         k9.luoKysymys("Suomessa on yksi saamelaisenemmistöinen kunta, mikä?", k9.vastausvaihtoehdot, 2);
 
-        Kysymys k10 = new Kysymys();
+        Kysymykset2 k10 = new Kysymykset2();
         k10.luoVastausvaihtoehdot("Lappelainen puukko", "Lappelainen muki", "Poronheittäjien lasso");
         k10.luoKysymys("Mikä on leuku?", k10.vastausvaihtoehdot, 0);
 
-        Kysymys k11 = new Kysymys();
+        Kysymykset2 k11 = new Kysymykset2();
         k11.luoVastausvaihtoehdot("Yhdeksän", "Viisi", "Neljä");
         k11.luoKysymys("Montako aistia on kissalla?", k11.vastausvaihtoehdot, 1);
 
-        Kysymys k12 = new Kysymys();
+        Kysymykset2 k12 = new Kysymykset2();
         k12.luoVastausvaihtoehdot("Ei virallisesti", "On kuulunut vuodesta 1950", "On kuulunut vuodesta 1995");
         k12.luoKysymys("Kuuluuko Suomi Skandinaviaan?", k12.vastausvaihtoehdot, 0);
 
-        Kysymys k13 = new Kysymys();
+        Kysymykset2 k13 = new Kysymykset2();
         k13.luoVastausvaihtoehdot("Paistettua kalaa", "Keitettyä kalaa", "Kuivattua kalaa");
         k13.luoKysymys("Mitä on kapakala?", k13.vastausvaihtoehdot, 2);
 
-        Kysymys k14 = new Kysymys();
+        Kysymykset2 k14 = new Kysymykset2();
         k14.luoVastausvaihtoehdot("Mauste", "Rasvatonta maitoa", "Jotain muuta");
         k14.luoKysymys("Mitä on kurri?", k14.vastausvaihtoehdot, 1);
 
-        Kysymys k15 = new Kysymys();
+        Kysymykset2 k15 = new Kysymykset2();
         k15.luoVastausvaihtoehdot("Voitolta!", "Aivan mahtavalta :)", "Ei miltään");
         k15.luoKysymys("Miltä tuntui kun sai tietovisan toimimaan?", k15.vastausvaihtoehdot, 0);
 
-        Kysymys k = new Kysymys();
+        Kysymykset2 k = new Kysymykset2();
         k.kysymysLista.add(k1);
         k.kysymysLista.add(k2);
         k.kysymysLista.add(k3);
@@ -93,8 +93,8 @@ public class Tietovisa {
 
     public static class Pelaa {
 
-        public void pelinKulkuYhdella(List<Kysymys> kysymysLista) {
-            Kysymys k = new Kysymys();
+        public void pelinKulkuYhdella(List<Kysymykset2> kysymysLista) {
+            Kysymykset2 k = new Kysymykset2();
             k.kysymysLista = kysymysLista;
 
 
@@ -147,8 +147,8 @@ public class Tietovisa {
 
 
 
-    public void pelinKulkuKahdella (List < Kysymys > kysymysLista) {
-        Kysymys k = new Kysymys();
+    public void pelinKulkuKahdella (List<Kysymykset2> kysymysLista) {
+        Kysymykset2 k = new Kysymykset2();
         k.kysymysLista = kysymysLista;
 
         Random rnd = new Random();
