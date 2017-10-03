@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Tietovisa {
 
 
-    public static void pelaaTosissaan() {
+    public void pelaaTosissaan() {
 
         Kysymykset2 k1 = new Kysymykset2();
         k1.luoVastausvaihtoehdot("Kyllä", "Ei", "Ehkä");
